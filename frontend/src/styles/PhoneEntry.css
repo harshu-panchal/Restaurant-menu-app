@@ -1,0 +1,65 @@
+.phone-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("https://images.unsplash.com/photo-1555992336-cbf8bcf0ef03") center/cover no-repeat;
+}
+
+.phone-card {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  padding: 40px 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.2);
+  width: 350px;
+  text-align: center;
+  color: white;
+}
+
+.phone-title {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.phone-subtitle {
+  font-size: 0.95rem;
+  margin-bottom: 25px;
+  color: #f0f0f0;
+}
+
+.phone-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.phone-input {
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  text-align: center;
+}
+
+.phone-btn {
+  background-color: #e67e22;
+  border: none;
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  color: white;
+}
+
+.phone-btn:hover {
+  background-color: #d35400;
+}
+
+.phone-success {
+  margin-top: 10px;
+  color: #2ecc71;
+  font-weight: bold;
+}
